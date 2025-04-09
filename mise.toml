@@ -1,0 +1,10 @@
+[tools]
+"sops" = "3.9.3"
+"age" = "1.2.1"
+
+
+[env]
+_.file = ".env.json"
+
+[settings]
+sops.age_key_file = "~/.config/mise/tuist-secrets-in-swift-app-age.txt"
